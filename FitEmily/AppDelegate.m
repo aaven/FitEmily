@@ -29,7 +29,7 @@
     // Override point for customization after application launch.
     // [Optional] Power your app with Local Datastore. For more info, go to
     // https://parse.com/docs/ios_guide#localdatastore/iOS
-    [Parse enableLocalDatastore];
+//    [Parse enableLocalDatastore];
     
     // Initialize Parse.
     [Parse setApplicationId:@"rltt2RWp0rL6foHhe0LDTM080TEfdKjGKa8hTcqA"

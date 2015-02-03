@@ -56,27 +56,23 @@
         success();
     }
 }
-//
-//- (void)whoami:(void (^)(NSDictionary *))success
-//       failure:(void (^)(NSError *))failure {
-//    NSString *url = @"users/me";
-//    
-//    [self handleGET:url parameters:nil success:^(NSDictionary *data) {
-//        success(data);
-//    } failure:^(NSError *error) {
-//        failure(error);
-//    }];
-//}
-//
-//- (void)fetchTasksSuccess:(void (^)(NSArray *))success
-//                  failure:(void (^)())failure {
-//    NSString *url = @"users/me/tasks";
-//    
-//    [self handleGET:url parameters:nil success:^(NSArray *data) {
-//        success(data);
-//    } failure:^(NSError *error) {
-//        failure(error);
-//    }];
-//}
+
+- (void)fetchWorkoutsInGroup:(PFObject *)group
+                     success:(void (^)(NSArray *))success
+                     failure:(void (^)())failure {
+    if (group == nil) {
+        NSLog(@"!! error - [fetchWorkoutsInGroup] group should not be nil");
+        return;
+    }
+    PFQuery *query = [PFQuery queryWithClassName:@"Workout"];
+    [query whereKey:@"group" equalTo:group];
+    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+        if (error == nil) {
+            success(objects);
+        } else {
+            failure();
+        }
+    }];
+}
 
 @end
