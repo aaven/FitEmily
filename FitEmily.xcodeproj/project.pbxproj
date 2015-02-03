@@ -27,6 +27,12 @@
 		86B6F19D1A80F31F000F5600 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B6F19C1A80F31F000F5600 /* SystemConfiguration.framework */; };
 		86B6F19F1A80F328000F5600 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B6F19E1A80F328000F5600 /* libz.dylib */; };
 		86B6F1A11A80F32D000F5600 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B6F1A01A80F32D000F5600 /* libsqlite3.dylib */; };
+		86B6F1A51A80F4FD000F5600 /* AJAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1A41A80F4FD000F5600 /* AJAPIManager.m */; };
+		86B6F1A81A80FBBA000F5600 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B6F1A61A80FBBA000F5600 /* Auth.storyboard */; };
+		86B6F1AC1A80FEDE000F5600 /* FELoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1AB1A80FEDE000F5600 /* FELoginViewController.m */; };
+		86B6F1AF1A80FEF2000F5600 /* FERegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1AE1A80FEF2000F5600 /* FERegisterViewController.m */; };
+		86B6F1B31A80FF16000F5600 /* AJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1B21A80FF16000F5600 /* AJViewController.m */; };
+		86B6F1B71A810415000F5600 /* FEMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1B61A810415000F5600 /* FEMeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +72,17 @@
 		86B6F19C1A80F31F000F5600 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		86B6F19E1A80F328000F5600 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		86B6F1A01A80F32D000F5600 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		86B6F1A31A80F4FD000F5600 /* AJAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJAPIManager.h; sourceTree = "<group>"; };
+		86B6F1A41A80F4FD000F5600 /* AJAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJAPIManager.m; sourceTree = "<group>"; };
+		86B6F1A71A80FBBA000F5600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Auth.storyboard; sourceTree = "<group>"; };
+		86B6F1AA1A80FEDE000F5600 /* FELoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FELoginViewController.h; sourceTree = "<group>"; };
+		86B6F1AB1A80FEDE000F5600 /* FELoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FELoginViewController.m; sourceTree = "<group>"; };
+		86B6F1AD1A80FEF2000F5600 /* FERegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FERegisterViewController.h; sourceTree = "<group>"; };
+		86B6F1AE1A80FEF2000F5600 /* FERegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FERegisterViewController.m; sourceTree = "<group>"; };
+		86B6F1B11A80FF16000F5600 /* AJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJViewController.h; sourceTree = "<group>"; };
+		86B6F1B21A80FF16000F5600 /* AJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJViewController.m; sourceTree = "<group>"; };
+		86B6F1B51A810415000F5600 /* FEMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEMeViewController.h; sourceTree = "<group>"; };
+		86B6F1B61A810415000F5600 /* FEMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEMeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,10 +142,14 @@
 				86B6F1651A7FD1F4000F5600 /* AppDelegate.m */,
 				86B6F1671A7FD1F4000F5600 /* ViewController.h */,
 				86B6F1681A7FD1F4000F5600 /* ViewController.m */,
+				86B6F1A61A80FBBA000F5600 /* Auth.storyboard */,
 				86B6F16A1A7FD1F4000F5600 /* Main.storyboard */,
 				86B6F16D1A7FD1F4000F5600 /* Images.xcassets */,
 				86B6F16F1A7FD1F4000F5600 /* LaunchScreen.xib */,
-				86B6F1861A80F2B2000F5600 /* Lib */,
+				86B6F1A91A80FECA000F5600 /* App - Auth */,
+				86B6F1B41A8103FB000F5600 /* App - Me */,
+				86B6F1A21A80F4E7000F5600 /* App - Parse */,
+				86B6F1B01A80FEFD000F5600 /* Lib */,
 				86B6F1601A7FD1F4000F5600 /* Supporting Files */,
 			);
 			path = FitEmily;
@@ -160,13 +181,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		86B6F1861A80F2B2000F5600 /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Lib;
-			sourceTree = "<group>";
-		};
 		86B6F1871A80F2CC000F5600 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +200,44 @@
 			);
 			name = Framework;
 			path = FitEmily;
+			sourceTree = "<group>";
+		};
+		86B6F1A21A80F4E7000F5600 /* App - Parse */ = {
+			isa = PBXGroup;
+			children = (
+				86B6F1A31A80F4FD000F5600 /* AJAPIManager.h */,
+				86B6F1A41A80F4FD000F5600 /* AJAPIManager.m */,
+			);
+			name = "App - Parse";
+			sourceTree = "<group>";
+		};
+		86B6F1A91A80FECA000F5600 /* App - Auth */ = {
+			isa = PBXGroup;
+			children = (
+				86B6F1AA1A80FEDE000F5600 /* FELoginViewController.h */,
+				86B6F1AB1A80FEDE000F5600 /* FELoginViewController.m */,
+				86B6F1AD1A80FEF2000F5600 /* FERegisterViewController.h */,
+				86B6F1AE1A80FEF2000F5600 /* FERegisterViewController.m */,
+			);
+			name = "App - Auth";
+			sourceTree = "<group>";
+		};
+		86B6F1B01A80FEFD000F5600 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				86B6F1B11A80FF16000F5600 /* AJViewController.h */,
+				86B6F1B21A80FF16000F5600 /* AJViewController.m */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		86B6F1B41A8103FB000F5600 /* App - Me */ = {
+			isa = PBXGroup;
+			children = (
+				86B6F1B51A810415000F5600 /* FEMeViewController.h */,
+				86B6F1B61A810415000F5600 /* FEMeViewController.m */,
+			);
+			name = "App - Me";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86B6F1A81A80FBBA000F5600 /* Auth.storyboard in Resources */,
 				86B6F16C1A7FD1F4000F5600 /* Main.storyboard in Resources */,
 				86B6F1711A7FD1F4000F5600 /* LaunchScreen.xib in Resources */,
 				86B6F16E1A7FD1F4000F5600 /* Images.xcassets in Resources */,
@@ -289,7 +342,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				86B6F1691A7FD1F4000F5600 /* ViewController.m in Sources */,
+				86B6F1A51A80F4FD000F5600 /* AJAPIManager.m in Sources */,
+				86B6F1B31A80FF16000F5600 /* AJViewController.m in Sources */,
+				86B6F1B71A810415000F5600 /* FEMeViewController.m in Sources */,
+				86B6F1AC1A80FEDE000F5600 /* FELoginViewController.m in Sources */,
 				86B6F1661A7FD1F4000F5600 /* AppDelegate.m in Sources */,
+				86B6F1AF1A80FEF2000F5600 /* FERegisterViewController.m in Sources */,
 				86B6F1631A7FD1F4000F5600 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,6 +385,14 @@
 				86B6F1701A7FD1F4000F5600 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		86B6F1A61A80FBBA000F5600 /* Auth.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86B6F1A71A80FBBA000F5600 /* Base */,
+			);
+			name = Auth.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

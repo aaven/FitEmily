@@ -15,6 +15,15 @@
 
 @implementation AppDelegate
 
+- (void)navigateWithAuthState {
+    UIStoryboard *storyboard = ([PFUser currentUser] == nil)
+    ? [UIStoryboard storyboardWithName:@"Auth" bundle:nil]
+    : [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *rootVc;
+    rootVc = [storyboard instantiateInitialViewController];
+    
+    [self.window setRootViewController:rootVc];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
@@ -23,11 +32,14 @@
     [Parse enableLocalDatastore];
     
     // Initialize Parse.
-    [Parse setApplicationId:@"wlO73AKOOjroqk8ZfMowtliG0ZPktJdAIByAkE8o"
-                  clientKey:@"Yftoe9aezc7jUsVHwB2ZXLg462quraPdcmH8pePj"];
+    [Parse setApplicationId:@"rltt2RWp0rL6foHhe0LDTM080TEfdKjGKa8hTcqA"
+                  clientKey:@"URv7Piz66urd7m54JB5IObyB1TsJDGq1av4DCeuW"];
     
     // [Optional] Track statistics around application opens.
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    [self navigateWithAuthState];
+    
     return YES;
 }
 
