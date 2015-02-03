@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		865ED7E71A8125D300039A5D /* FEPunchInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865ED7E61A8125D300039A5D /* FEPunchInViewController.m */; };
 		86B6F1631A7FD1F4000F5600 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1621A7FD1F4000F5600 /* main.m */; };
 		86B6F1661A7FD1F4000F5600 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1651A7FD1F4000F5600 /* AppDelegate.m */; };
 		86B6F1691A7FD1F4000F5600 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1681A7FD1F4000F5600 /* ViewController.m */; };
@@ -34,6 +35,7 @@
 		86B6F1B31A80FF16000F5600 /* AJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1B21A80FF16000F5600 /* AJViewController.m */; };
 		86B6F1B71A810415000F5600 /* FEMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1B61A810415000F5600 /* FEMeViewController.m */; };
 		86B6F1BA1A811393000F5600 /* FEDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1B91A811393000F5600 /* FEDataManager.m */; };
+		86B6F1C01A811D02000F5600 /* FETimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1BF1A811D01000F5600 /* FETimelineViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		865ED7E51A8125D300039A5D /* FEPunchInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEPunchInViewController.h; sourceTree = "<group>"; };
+		865ED7E61A8125D300039A5D /* FEPunchInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEPunchInViewController.m; sourceTree = "<group>"; };
 		86B6F15D1A7FD1F4000F5600 /* FitEmily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitEmily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B6F1611A7FD1F4000F5600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86B6F1621A7FD1F4000F5600 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -87,6 +91,8 @@
 		86B6F1B81A811393000F5600 /* FEDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEDataManager.h; sourceTree = "<group>"; };
 		86B6F1B91A811393000F5600 /* FEDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEDataManager.m; sourceTree = "<group>"; };
 		86B6F1BB1A811427000F5600 /* FEConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FEConstants.h; sourceTree = "<group>"; };
+		86B6F1BE1A811D01000F5600 /* FETimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FETimelineViewController.h; sourceTree = "<group>"; };
+		86B6F1BF1A811D01000F5600 /* FETimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FETimelineViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +158,7 @@
 				86B6F16D1A7FD1F4000F5600 /* Images.xcassets */,
 				86B6F16F1A7FD1F4000F5600 /* LaunchScreen.xib */,
 				86B6F1A91A80FECA000F5600 /* App - Auth */,
+				86B6F1BD1A811CEF000F5600 /* App - Timeline */,
 				86B6F1B41A8103FB000F5600 /* App - Me */,
 				86B6F1A21A80F4E7000F5600 /* App - Data */,
 				86B6F1B01A80FEFD000F5600 /* Lib */,
@@ -245,6 +252,17 @@
 				86B6F1B61A810415000F5600 /* FEMeViewController.m */,
 			);
 			name = "App - Me";
+			sourceTree = "<group>";
+		};
+		86B6F1BD1A811CEF000F5600 /* App - Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				86B6F1BE1A811D01000F5600 /* FETimelineViewController.h */,
+				86B6F1BF1A811D01000F5600 /* FETimelineViewController.m */,
+				865ED7E51A8125D300039A5D /* FEPunchInViewController.h */,
+				865ED7E61A8125D300039A5D /* FEPunchInViewController.m */,
+			);
+			name = "App - Timeline";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,12 +368,14 @@
 			files = (
 				86B6F1691A7FD1F4000F5600 /* ViewController.m in Sources */,
 				86B6F1A51A80F4FD000F5600 /* AJAPIManager.m in Sources */,
+				865ED7E71A8125D300039A5D /* FEPunchInViewController.m in Sources */,
 				86B6F1B31A80FF16000F5600 /* AJViewController.m in Sources */,
 				86B6F1B71A810415000F5600 /* FEMeViewController.m in Sources */,
 				86B6F1AC1A80FEDE000F5600 /* FELoginViewController.m in Sources */,
 				86B6F1661A7FD1F4000F5600 /* AppDelegate.m in Sources */,
 				86B6F1AF1A80FEF2000F5600 /* FERegisterViewController.m in Sources */,
 				86B6F1631A7FD1F4000F5600 /* main.m in Sources */,
+				86B6F1C01A811D02000F5600 /* FETimelineViewController.m in Sources */,
 				86B6F1BA1A811393000F5600 /* FEDataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -565,6 +585,7 @@
 				86B6F1821A7FD1F4000F5600 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86B6F1831A7FD1F4000F5600 /* Build configuration list for PBXNativeTarget "FitEmilyTests" */ = {
 			isa = XCConfigurationList;
@@ -573,6 +594,7 @@
 				86B6F1851A7FD1F4000F5600 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

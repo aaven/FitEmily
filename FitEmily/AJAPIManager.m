@@ -7,6 +7,7 @@
 //
 
 #import "AJAPIManager.h"
+#import "FEDataManager.h"
 
 @interface AJAPIManager ()
 
@@ -69,6 +70,25 @@
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
         if (error == nil) {
             success(objects);
+        } else {
+            failure();
+        }
+    }];
+}
+
+- (void)punchIn:(NSString *)name
+        minutes:(NSInteger)minutes
+        inGroup:(PFObject *)group
+        success:(void (^)())success
+        failure:(void (^)())failure {
+    PFObject *workout = [PFObject objectWithClassName:@"Workout"];
+    workout[@"name"] = name;
+    workout[@"minute"] = @(minutes);
+    workout[@"userId"] = [PFUser currentUser].objectId;
+    workout[@"groupId"] = [[FEDataManager sharedManager] currentGroup].objectId;
+    [workout saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+        if (succeeded) {
+            success();
         } else {
             failure();
         }
