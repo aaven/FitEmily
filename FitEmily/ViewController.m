@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 FE. All rights reserved.
 //
 
+#import <Parse/Parse.h>
 #import "ViewController.h"
 
 @interface ViewController ()
