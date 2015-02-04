@@ -7,25 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		865ED7E71A8125D300039A5D /* FEPunchInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865ED7E61A8125D300039A5D /* FEPunchInViewController.m */; };
 		86B6F1631A7FD1F4000F5600 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1621A7FD1F4000F5600 /* main.m */; };
 		86B6F1661A7FD1F4000F5600 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1651A7FD1F4000F5600 /* AppDelegate.m */; };
-		86B6F1691A7FD1F4000F5600 /* FYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1681A7FD1F4000F5600 /* FYMainViewController.m */; };
-		86B6F16C1A7FD1F4000F5600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B6F16A1A7FD1F4000F5600 /* Main.storyboard */; };
+		86B6F1691A7FD1F4000F5600 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1681A7FD1F4000F5600 /* ViewController.m */; };
 		86B6F16E1A7FD1F4000F5600 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86B6F16D1A7FD1F4000F5600 /* Images.xcassets */; };
 		86B6F1711A7FD1F4000F5600 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B6F16F1A7FD1F4000F5600 /* LaunchScreen.xib */; };
 		86B6F17D1A7FD1F4000F5600 /* FitEmilyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F17C1A7FD1F4000F5600 /* FitEmilyTests.m */; };
-		E43628281A824E1B00C51CF6 /* icon24_wx_button.png in Resources */ = {isa = PBXBuildFile; fileRef = E43628271A824E1B00C51CF6 /* icon24_wx_button.png */; };
-		E436282A1A824E6900C51CF6 /* icon48_wx_button.png in Resources */ = {isa = PBXBuildFile; fileRef = E43628291A824E6900C51CF6 /* icon48_wx_button.png */; };
-		E436282C1A82510D00C51CF6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E436282B1A82510C00C51CF6 /* SystemConfiguration.framework */; };
-		E436282E1A82512400C51CF6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E436282D1A82512400C51CF6 /* libz.dylib */; };
-		E43628301A82514200C51CF6 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E436282F1A82514200C51CF6 /* libsqlite3.0.dylib */; };
-		E43628321A82537800C51CF6 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E43628311A82537800C51CF6 /* libc++.dylib */; };
-		E4A3BD051A811A3F002C4B35 /* WeChatIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4A3BD041A811A3F002C4B35 /* WeChatIcon.jpg */; };
-		E4A3BD081A8121EC002C4B35 /* FYWeChatInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A3BD071A8121EC002C4B35 /* FYWeChatInfoViewController.m */; };
-		E4A3BD211A812E39002C4B35 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A3BD201A812E39002C4B35 /* RootViewController.m */; };
-		E4A3BD241A8217D5002C4B35 /* FYWeChatNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A3BD231A8217D5002C4B35 /* FYWeChatNetwork.m */; };
-		E4A3BD321A822619002C4B35 /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = E4A3BD2E1A822619002C4B35 /* read_me.txt */; };
-		E4A3BD371A822A1F002C4B35 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A3BD2D1A822619002C4B35 /* libWeChatSDK.a */; };
+		86B6F18A1A80F2D9000F5600 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B6F1881A80F2D9000F5600 /* Bolts.framework */; };
+		86B6F18B1A80F2D9000F5600 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B6F1891A80F2D9000F5600 /* Parse.framework */; };
+		86B6F18D1A80F2EB000F5600 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B6F18C1A80F2EB000F5600 /* AudioToolbox.framework */; };
+		86B6F18F1A80F2F7000F5600 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B6F18E1A80F2F7000F5600 /* CFNetwork.framework */; };
+		86B6F1911A80F2FC000F5600 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B6F1901A80F2FC000F5600 /* CoreGraphics.framework */; };
+		86B6F1931A80F300000F5600 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B6F1921A80F300000F5600 /* CoreLocation.framework */; };
+		86B6F1951A80F304000F5600 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B6F1941A80F304000F5600 /* MobileCoreServices.framework */; };
+		86B6F1971A80F30B000F5600 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B6F1961A80F30B000F5600 /* QuartzCore.framework */; };
+		86B6F1991A80F311000F5600 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B6F1981A80F311000F5600 /* Security.framework */; };
+		86B6F19B1A80F319000F5600 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B6F19A1A80F319000F5600 /* StoreKit.framework */; };
+		86B6F19D1A80F31F000F5600 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B6F19C1A80F31F000F5600 /* SystemConfiguration.framework */; };
+		86B6F19F1A80F328000F5600 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B6F19E1A80F328000F5600 /* libz.dylib */; };
+		86B6F1A11A80F32D000F5600 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B6F1A01A80F32D000F5600 /* libsqlite3.dylib */; };
+		86B6F1A51A80F4FD000F5600 /* AJAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1A41A80F4FD000F5600 /* AJAPIManager.m */; };
+		86B6F1A81A80FBBA000F5600 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B6F1A61A80FBBA000F5600 /* Auth.storyboard */; };
+		86B6F1AC1A80FEDE000F5600 /* FELoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1AB1A80FEDE000F5600 /* FELoginViewController.m */; };
+		86B6F1AF1A80FEF2000F5600 /* FERegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1AE1A80FEF2000F5600 /* FERegisterViewController.m */; };
+		86B6F1B31A80FF16000F5600 /* AJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1B21A80FF16000F5600 /* AJViewController.m */; };
+		86B6F1B71A810415000F5600 /* FEMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1B61A810415000F5600 /* FEMeViewController.m */; };
+		86B6F1BA1A811393000F5600 /* FEDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1B91A811393000F5600 /* FEDataManager.m */; };
+		86B6F1C01A811D02000F5600 /* FETimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1BF1A811D01000F5600 /* FETimelineViewController.m */; };
+		E436283B1A8261BD00C51CF6 /* FYWeChatNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = E43628381A8261BD00C51CF6 /* FYWeChatNetwork.m */; };
+		E43628451A8262BF00C51CF6 /* icon48_wx_button.png in Resources */ = {isa = PBXBuildFile; fileRef = E43628441A8262BF00C51CF6 /* icon48_wx_button.png */; };
+		E43628481A82652800C51CF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43628461A82652800C51CF6 /* Main.storyboard */; };
+		E436284A1A8265EF00C51CF6 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E43628491A8265EE00C51CF6 /* libsqlite3.0.dylib */; };
+		E43628501A8266A000C51CF6 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E436284C1A8266A000C51CF6 /* libWeChatSDK.a */; };
+		E43628511A8266A000C51CF6 /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = E436284D1A8266A000C51CF6 /* read_me.txt */; };
+		E43628531A8267BD00C51CF6 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E43628521A8267BD00C51CF6 /* libc++.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,37 +55,59 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		865ED7E51A8125D300039A5D /* FEPunchInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEPunchInViewController.h; sourceTree = "<group>"; };
+		865ED7E61A8125D300039A5D /* FEPunchInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEPunchInViewController.m; sourceTree = "<group>"; };
 		86B6F15D1A7FD1F4000F5600 /* FitEmily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitEmily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B6F1611A7FD1F4000F5600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86B6F1621A7FD1F4000F5600 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		86B6F1641A7FD1F4000F5600 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		86B6F1651A7FD1F4000F5600 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		86B6F1671A7FD1F4000F5600 /* FYMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYMainViewController.h; sourceTree = "<group>"; };
-		86B6F1681A7FD1F4000F5600 /* FYMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYMainViewController.m; sourceTree = "<group>"; };
-		86B6F16B1A7FD1F4000F5600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86B6F1671A7FD1F4000F5600 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		86B6F1681A7FD1F4000F5600 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		86B6F16D1A7FD1F4000F5600 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		86B6F1701A7FD1F4000F5600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		86B6F1761A7FD1F4000F5600 /* FitEmilyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitEmilyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B6F17B1A7FD1F4000F5600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86B6F17C1A7FD1F4000F5600 /* FitEmilyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitEmilyTests.m; sourceTree = "<group>"; };
-		E43628271A824E1B00C51CF6 /* icon24_wx_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon24_wx_button.png; sourceTree = "<group>"; };
-		E43628291A824E6900C51CF6 /* icon48_wx_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon48_wx_button.png; sourceTree = "<group>"; };
-		E436282B1A82510C00C51CF6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		E436282D1A82512400C51CF6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		E436282F1A82514200C51CF6 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		E43628311A82537800C51CF6 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
-		E4A3BD041A811A3F002C4B35 /* WeChatIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WeChatIcon.jpg; sourceTree = "<group>"; };
-		E4A3BD061A8121EC002C4B35 /* FYWeChatInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYWeChatInfoViewController.h; sourceTree = "<group>"; };
-		E4A3BD071A8121EC002C4B35 /* FYWeChatInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYWeChatInfoViewController.m; sourceTree = "<group>"; };
-		E4A3BD1E1A812BC2002C4B35 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
-		E4A3BD1F1A812E39002C4B35 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		E4A3BD201A812E39002C4B35 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		E4A3BD221A8217D5002C4B35 /* FYWeChatNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYWeChatNetwork.h; sourceTree = "<group>"; };
-		E4A3BD231A8217D5002C4B35 /* FYWeChatNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYWeChatNetwork.m; sourceTree = "<group>"; };
-		E4A3BD2D1A822619002C4B35 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		E4A3BD2E1A822619002C4B35 /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
-		E4A3BD2F1A822619002C4B35 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		E4A3BD301A822619002C4B35 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		86B6F1881A80F2D9000F5600 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		86B6F1891A80F2D9000F5600 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		86B6F18C1A80F2EB000F5600 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		86B6F18E1A80F2F7000F5600 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		86B6F1901A80F2FC000F5600 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		86B6F1921A80F300000F5600 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		86B6F1941A80F304000F5600 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		86B6F1961A80F30B000F5600 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		86B6F1981A80F311000F5600 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		86B6F19A1A80F319000F5600 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		86B6F19C1A80F31F000F5600 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		86B6F19E1A80F328000F5600 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		86B6F1A01A80F32D000F5600 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		86B6F1A31A80F4FD000F5600 /* AJAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJAPIManager.h; sourceTree = "<group>"; };
+		86B6F1A41A80F4FD000F5600 /* AJAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJAPIManager.m; sourceTree = "<group>"; };
+		86B6F1A71A80FBBA000F5600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Auth.storyboard; sourceTree = "<group>"; };
+		86B6F1AA1A80FEDE000F5600 /* FELoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FELoginViewController.h; sourceTree = "<group>"; };
+		86B6F1AB1A80FEDE000F5600 /* FELoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FELoginViewController.m; sourceTree = "<group>"; };
+		86B6F1AD1A80FEF2000F5600 /* FERegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FERegisterViewController.h; sourceTree = "<group>"; };
+		86B6F1AE1A80FEF2000F5600 /* FERegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FERegisterViewController.m; sourceTree = "<group>"; };
+		86B6F1B11A80FF16000F5600 /* AJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJViewController.h; sourceTree = "<group>"; };
+		86B6F1B21A80FF16000F5600 /* AJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJViewController.m; sourceTree = "<group>"; };
+		86B6F1B51A810415000F5600 /* FEMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEMeViewController.h; sourceTree = "<group>"; };
+		86B6F1B61A810415000F5600 /* FEMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEMeViewController.m; sourceTree = "<group>"; };
+		86B6F1B81A811393000F5600 /* FEDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEDataManager.h; sourceTree = "<group>"; };
+		86B6F1B91A811393000F5600 /* FEDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEDataManager.m; sourceTree = "<group>"; };
+		86B6F1BB1A811427000F5600 /* FEConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FEConstants.h; sourceTree = "<group>"; };
+		86B6F1BE1A811D01000F5600 /* FETimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FETimelineViewController.h; sourceTree = "<group>"; };
+		86B6F1BF1A811D01000F5600 /* FETimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FETimelineViewController.m; sourceTree = "<group>"; };
+		E43628371A8261BD00C51CF6 /* FYWeChatNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYWeChatNetwork.h; sourceTree = "<group>"; };
+		E43628381A8261BD00C51CF6 /* FYWeChatNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYWeChatNetwork.m; sourceTree = "<group>"; };
+		E43628441A8262BF00C51CF6 /* icon48_wx_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon48_wx_button.png; sourceTree = "<group>"; };
+		E43628471A82652800C51CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E43628491A8265EE00C51CF6 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		E436284C1A8266A000C51CF6 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		E436284D1A8266A000C51CF6 /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
+		E436284E1A8266A000C51CF6 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		E436284F1A8266A000C51CF6 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		E43628521A8267BD00C51CF6 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +115,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E43628321A82537800C51CF6 /* libc++.dylib in Frameworks */,
-				E4A3BD371A822A1F002C4B35 /* libWeChatSDK.a in Frameworks */,
-				E43628301A82514200C51CF6 /* libsqlite3.0.dylib in Frameworks */,
-				E436282E1A82512400C51CF6 /* libz.dylib in Frameworks */,
-				E436282C1A82510D00C51CF6 /* SystemConfiguration.framework in Frameworks */,
+				E43628531A8267BD00C51CF6 /* libc++.dylib in Frameworks */,
+				E436284A1A8265EF00C51CF6 /* libsqlite3.0.dylib in Frameworks */,
+				86B6F1A11A80F32D000F5600 /* libsqlite3.dylib in Frameworks */,
+				86B6F19F1A80F328000F5600 /* libz.dylib in Frameworks */,
+				86B6F19D1A80F31F000F5600 /* SystemConfiguration.framework in Frameworks */,
+				86B6F19B1A80F319000F5600 /* StoreKit.framework in Frameworks */,
+				86B6F1991A80F311000F5600 /* Security.framework in Frameworks */,
+				86B6F1971A80F30B000F5600 /* QuartzCore.framework in Frameworks */,
+				86B6F1951A80F304000F5600 /* MobileCoreServices.framework in Frameworks */,
+				86B6F1931A80F300000F5600 /* CoreLocation.framework in Frameworks */,
+				86B6F1911A80F2FC000F5600 /* CoreGraphics.framework in Frameworks */,
+				86B6F18F1A80F2F7000F5600 /* CFNetwork.framework in Frameworks */,
+				86B6F18D1A80F2EB000F5600 /* AudioToolbox.framework in Frameworks */,
+				86B6F18B1A80F2D9000F5600 /* Parse.framework in Frameworks */,
+				86B6F18A1A80F2D9000F5600 /* Bolts.framework in Frameworks */,
+				E43628501A8266A000C51CF6 /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,12 +147,12 @@
 		86B6F1541A7FD1F4000F5600 = {
 			isa = PBXGroup;
 			children = (
-				E43628311A82537800C51CF6 /* libc++.dylib */,
-				E436282F1A82514200C51CF6 /* libsqlite3.0.dylib */,
-				E436282D1A82512400C51CF6 /* libz.dylib */,
-				E436282B1A82510C00C51CF6 /* SystemConfiguration.framework */,
-				E4A3BD2C1A822619002C4B35 /* WeChatSDK_64 */,
+				E43628521A8267BD00C51CF6 /* libc++.dylib */,
+				E436284B1A8266A000C51CF6 /* WeChatSDK_64 */,
+				E43628491A8265EE00C51CF6 /* libsqlite3.0.dylib */,
 				86B6F15F1A7FD1F4000F5600 /* FitEmily */,
+				E43628431A8262BF00C51CF6 /* Images */,
+				86B6F1871A80F2CC000F5600 /* Framework */,
 				86B6F1791A7FD1F4000F5600 /* FitEmilyTests */,
 				86B6F15E1A7FD1F4000F5600 /* Products */,
 			);
@@ -121,21 +170,22 @@
 		86B6F15F1A7FD1F4000F5600 /* FitEmily */ = {
 			isa = PBXGroup;
 			children = (
+				86B6F1BB1A811427000F5600 /* FEConstants.h */,
 				86B6F1641A7FD1F4000F5600 /* AppDelegate.h */,
 				86B6F1651A7FD1F4000F5600 /* AppDelegate.m */,
-				E4A3BD1F1A812E39002C4B35 /* RootViewController.h */,
-				E4A3BD201A812E39002C4B35 /* RootViewController.m */,
-				86B6F1671A7FD1F4000F5600 /* FYMainViewController.h */,
-				86B6F1681A7FD1F4000F5600 /* FYMainViewController.m */,
-				E4A3BD061A8121EC002C4B35 /* FYWeChatInfoViewController.h */,
-				E4A3BD071A8121EC002C4B35 /* FYWeChatInfoViewController.m */,
-				E4A3BD1E1A812BC2002C4B35 /* Define.h */,
-				86B6F16A1A7FD1F4000F5600 /* Main.storyboard */,
-				E4A3BD221A8217D5002C4B35 /* FYWeChatNetwork.h */,
-				E4A3BD231A8217D5002C4B35 /* FYWeChatNetwork.m */,
+				86B6F1671A7FD1F4000F5600 /* ViewController.h */,
+				86B6F1681A7FD1F4000F5600 /* ViewController.m */,
+				86B6F1A61A80FBBA000F5600 /* Auth.storyboard */,
+				E43628461A82652800C51CF6 /* Main.storyboard */,
+				E43628371A8261BD00C51CF6 /* FYWeChatNetwork.h */,
+				E43628381A8261BD00C51CF6 /* FYWeChatNetwork.m */,
 				86B6F16D1A7FD1F4000F5600 /* Images.xcassets */,
 				86B6F16F1A7FD1F4000F5600 /* LaunchScreen.xib */,
-				E4A3BD031A811A3F002C4B35 /* Images */,
+				86B6F1A91A80FECA000F5600 /* App - Auth */,
+				86B6F1BD1A811CEF000F5600 /* App - Timeline */,
+				86B6F1B41A8103FB000F5600 /* App - Me */,
+				86B6F1A21A80F4E7000F5600 /* App - Data */,
+				86B6F1B01A80FEFD000F5600 /* Lib */,
 				86B6F1601A7FD1F4000F5600 /* Supporting Files */,
 			);
 			path = FitEmily;
@@ -167,23 +217,94 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E4A3BD031A811A3F002C4B35 /* Images */ = {
+		86B6F1871A80F2CC000F5600 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				E43628291A824E6900C51CF6 /* icon48_wx_button.png */,
-				E43628271A824E1B00C51CF6 /* icon24_wx_button.png */,
-				E4A3BD041A811A3F002C4B35 /* WeChatIcon.jpg */,
+				86B6F19C1A80F31F000F5600 /* SystemConfiguration.framework */,
+				86B6F19A1A80F319000F5600 /* StoreKit.framework */,
+				86B6F1981A80F311000F5600 /* Security.framework */,
+				86B6F1961A80F30B000F5600 /* QuartzCore.framework */,
+				86B6F1941A80F304000F5600 /* MobileCoreServices.framework */,
+				86B6F1921A80F300000F5600 /* CoreLocation.framework */,
+				86B6F1901A80F2FC000F5600 /* CoreGraphics.framework */,
+				86B6F18E1A80F2F7000F5600 /* CFNetwork.framework */,
+				86B6F18C1A80F2EB000F5600 /* AudioToolbox.framework */,
+				86B6F1A01A80F32D000F5600 /* libsqlite3.dylib */,
+				86B6F19E1A80F328000F5600 /* libz.dylib */,
+				86B6F1881A80F2D9000F5600 /* Bolts.framework */,
+				86B6F1891A80F2D9000F5600 /* Parse.framework */,
 			);
-			path = Images;
+			name = Framework;
+			path = FitEmily;
 			sourceTree = "<group>";
 		};
-		E4A3BD2C1A822619002C4B35 /* WeChatSDK_64 */ = {
+		86B6F1A21A80F4E7000F5600 /* App - Data */ = {
 			isa = PBXGroup;
 			children = (
-				E4A3BD2D1A822619002C4B35 /* libWeChatSDK.a */,
-				E4A3BD2E1A822619002C4B35 /* read_me.txt */,
-				E4A3BD2F1A822619002C4B35 /* WXApi.h */,
-				E4A3BD301A822619002C4B35 /* WXApiObject.h */,
+				86B6F1A31A80F4FD000F5600 /* AJAPIManager.h */,
+				86B6F1A41A80F4FD000F5600 /* AJAPIManager.m */,
+				86B6F1B81A811393000F5600 /* FEDataManager.h */,
+				86B6F1B91A811393000F5600 /* FEDataManager.m */,
+			);
+			name = "App - Data";
+			sourceTree = "<group>";
+		};
+		86B6F1A91A80FECA000F5600 /* App - Auth */ = {
+			isa = PBXGroup;
+			children = (
+				86B6F1AA1A80FEDE000F5600 /* FELoginViewController.h */,
+				86B6F1AB1A80FEDE000F5600 /* FELoginViewController.m */,
+				86B6F1AD1A80FEF2000F5600 /* FERegisterViewController.h */,
+				86B6F1AE1A80FEF2000F5600 /* FERegisterViewController.m */,
+			);
+			name = "App - Auth";
+			sourceTree = "<group>";
+		};
+		86B6F1B01A80FEFD000F5600 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				86B6F1B11A80FF16000F5600 /* AJViewController.h */,
+				86B6F1B21A80FF16000F5600 /* AJViewController.m */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		86B6F1B41A8103FB000F5600 /* App - Me */ = {
+			isa = PBXGroup;
+			children = (
+				86B6F1B51A810415000F5600 /* FEMeViewController.h */,
+				86B6F1B61A810415000F5600 /* FEMeViewController.m */,
+			);
+			name = "App - Me";
+			sourceTree = "<group>";
+		};
+		86B6F1BD1A811CEF000F5600 /* App - Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				86B6F1BE1A811D01000F5600 /* FETimelineViewController.h */,
+				86B6F1BF1A811D01000F5600 /* FETimelineViewController.m */,
+				865ED7E51A8125D300039A5D /* FEPunchInViewController.h */,
+				865ED7E61A8125D300039A5D /* FEPunchInViewController.m */,
+			);
+			name = "App - Timeline";
+			sourceTree = "<group>";
+		};
+		E43628431A8262BF00C51CF6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E43628441A8262BF00C51CF6 /* icon48_wx_button.png */,
+			);
+			name = Images;
+			path = FitEmily/Images;
+			sourceTree = "<group>";
+		};
+		E436284B1A8266A000C51CF6 /* WeChatSDK_64 */ = {
+			isa = PBXGroup;
+			children = (
+				E436284C1A8266A000C51CF6 /* libWeChatSDK.a */,
+				E436284D1A8266A000C51CF6 /* read_me.txt */,
+				E436284E1A8266A000C51CF6 /* WXApi.h */,
+				E436284F1A8266A000C51CF6 /* WXApiObject.h */,
 			);
 			path = WeChatSDK_64;
 			sourceTree = "<group>";
@@ -268,13 +389,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86B6F16C1A7FD1F4000F5600 /* Main.storyboard in Resources */,
-				E43628281A824E1B00C51CF6 /* icon24_wx_button.png in Resources */,
+				86B6F1A81A80FBBA000F5600 /* Auth.storyboard in Resources */,
 				86B6F1711A7FD1F4000F5600 /* LaunchScreen.xib in Resources */,
+				E43628451A8262BF00C51CF6 /* icon48_wx_button.png in Resources */,
+				E43628481A82652800C51CF6 /* Main.storyboard in Resources */,
+				E43628511A8266A000C51CF6 /* read_me.txt in Resources */,
 				86B6F16E1A7FD1F4000F5600 /* Images.xcassets in Resources */,
-				E436282A1A824E6900C51CF6 /* icon48_wx_button.png in Resources */,
-				E4A3BD051A811A3F002C4B35 /* WeChatIcon.jpg in Resources */,
-				E4A3BD321A822619002C4B35 /* read_me.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,12 +412,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86B6F1691A7FD1F4000F5600 /* FYMainViewController.m in Sources */,
-				E4A3BD241A8217D5002C4B35 /* FYWeChatNetwork.m in Sources */,
-				E4A3BD081A8121EC002C4B35 /* FYWeChatInfoViewController.m in Sources */,
+				86B6F1691A7FD1F4000F5600 /* ViewController.m in Sources */,
+				86B6F1A51A80F4FD000F5600 /* AJAPIManager.m in Sources */,
+				865ED7E71A8125D300039A5D /* FEPunchInViewController.m in Sources */,
+				86B6F1B31A80FF16000F5600 /* AJViewController.m in Sources */,
+				86B6F1B71A810415000F5600 /* FEMeViewController.m in Sources */,
+				86B6F1AC1A80FEDE000F5600 /* FELoginViewController.m in Sources */,
 				86B6F1661A7FD1F4000F5600 /* AppDelegate.m in Sources */,
+				86B6F1AF1A80FEF2000F5600 /* FERegisterViewController.m in Sources */,
 				86B6F1631A7FD1F4000F5600 /* main.m in Sources */,
-				E4A3BD211A812E39002C4B35 /* RootViewController.m in Sources */,
+				E436283B1A8261BD00C51CF6 /* FYWeChatNetwork.m in Sources */,
+				86B6F1C01A811D02000F5600 /* FETimelineViewController.m in Sources */,
+				86B6F1BA1A811393000F5600 /* FEDataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,20 +446,28 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		86B6F16A1A7FD1F4000F5600 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				86B6F16B1A7FD1F4000F5600 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		86B6F16F1A7FD1F4000F5600 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				86B6F1701A7FD1F4000F5600 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		86B6F1A61A80FBBA000F5600 /* Auth.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86B6F1A71A80FBBA000F5600 /* Base */,
+			);
+			name = Auth.storyboard;
+			sourceTree = "<group>";
+		};
+		E43628461A82652800C51CF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E43628471A82652800C51CF6 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -421,18 +555,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FitEmily",
+				);
 				INFOPLIST_FILE = FitEmily/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WeChatSDK_64",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = "arm64 armv7s armv7";
 			};
 			name = Debug;
 		};
@@ -440,18 +574,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FitEmily",
+				);
 				INFOPLIST_FILE = FitEmily/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WeChatSDK_64",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = "arm64 armv7s armv7";
 			};
 			name = Release;
 		};
@@ -468,7 +602,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = FitEmilyTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitEmily.app/FitEmily";
@@ -484,7 +618,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = FitEmilyTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitEmily.app/FitEmily";

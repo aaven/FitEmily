@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 FE. All rights reserved.
 //
 
+#import <Parse/Parse.h>
 #import "AppDelegate.h"
 #import "FYWeChatNetwork.h"
 #import "Define.h"
@@ -18,12 +19,34 @@
 
 @implementation AppDelegate
 
+- (void)navigateWithAuthState {
+    UIStoryboard *storyboard = ([PFUser currentUser] == nil)
+    ? [UIStoryboard storyboardWithName:@"Auth" bundle:nil]
+    : [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *rootVc;
+    rootVc = [storyboard instantiateInitialViewController];
+    
+    [self.window setRootViewController:rootVc];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
     [WXApi registerApp:WeiXinAppId withDescription:AppDescription];
 
+    // [Optional] Power your app with Local Datastore. For more info, go to
+    // https://parse.com/docs/ios_guide#localdatastore/iOS
+//    [Parse enableLocalDatastore];
+    
+    // Initialize Parse.
+    [Parse setApplicationId:@"rltt2RWp0rL6foHhe0LDTM080TEfdKjGKa8hTcqA"
+                  clientKey:@"URv7Piz66urd7m54JB5IObyB1TsJDGq1av4DCeuW"];
+    
+    // [Optional] Track statistics around application opens.
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    [self navigateWithAuthState];
+    
     return YES;
 }
 
