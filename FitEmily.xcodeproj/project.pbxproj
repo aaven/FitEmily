@@ -37,11 +37,11 @@
 		86B6F1C01A811D02000F5600 /* FETimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1BF1A811D01000F5600 /* FETimelineViewController.m */; };
 		E436283B1A8261BD00C51CF6 /* FYWeChatNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = E43628381A8261BD00C51CF6 /* FYWeChatNetwork.m */; };
 		E43628451A8262BF00C51CF6 /* icon48_wx_button.png in Resources */ = {isa = PBXBuildFile; fileRef = E43628441A8262BF00C51CF6 /* icon48_wx_button.png */; };
-		E43628481A82652800C51CF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43628461A82652800C51CF6 /* Main.storyboard */; };
 		E436284A1A8265EF00C51CF6 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E43628491A8265EE00C51CF6 /* libsqlite3.0.dylib */; };
 		E43628501A8266A000C51CF6 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E436284C1A8266A000C51CF6 /* libWeChatSDK.a */; };
 		E43628511A8266A000C51CF6 /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = E436284D1A8266A000C51CF6 /* read_me.txt */; };
 		E43628531A8267BD00C51CF6 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E43628521A8267BD00C51CF6 /* libc++.dylib */; };
+		E43628561A82762000C51CF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43628541A82762000C51CF6 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,13 +101,13 @@
 		E43628371A8261BD00C51CF6 /* FYWeChatNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYWeChatNetwork.h; sourceTree = "<group>"; };
 		E43628381A8261BD00C51CF6 /* FYWeChatNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYWeChatNetwork.m; sourceTree = "<group>"; };
 		E43628441A8262BF00C51CF6 /* icon48_wx_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon48_wx_button.png; sourceTree = "<group>"; };
-		E43628471A82652800C51CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E43628491A8265EE00C51CF6 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		E436284C1A8266A000C51CF6 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		E436284D1A8266A000C51CF6 /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
 		E436284E1A8266A000C51CF6 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		E436284F1A8266A000C51CF6 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		E43628521A8267BD00C51CF6 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		E43628551A82762000C51CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,8 +175,8 @@
 				86B6F1651A7FD1F4000F5600 /* AppDelegate.m */,
 				86B6F1671A7FD1F4000F5600 /* ViewController.h */,
 				86B6F1681A7FD1F4000F5600 /* ViewController.m */,
+				E43628541A82762000C51CF6 /* Main.storyboard */,
 				86B6F1A61A80FBBA000F5600 /* Auth.storyboard */,
-				E43628461A82652800C51CF6 /* Main.storyboard */,
 				E43628371A8261BD00C51CF6 /* FYWeChatNetwork.h */,
 				E43628381A8261BD00C51CF6 /* FYWeChatNetwork.m */,
 				86B6F16D1A7FD1F4000F5600 /* Images.xcassets */,
@@ -392,7 +392,7 @@
 				86B6F1A81A80FBBA000F5600 /* Auth.storyboard in Resources */,
 				86B6F1711A7FD1F4000F5600 /* LaunchScreen.xib in Resources */,
 				E43628451A8262BF00C51CF6 /* icon48_wx_button.png in Resources */,
-				E43628481A82652800C51CF6 /* Main.storyboard in Resources */,
+				E43628561A82762000C51CF6 /* Main.storyboard in Resources */,
 				E43628511A8266A000C51CF6 /* read_me.txt in Resources */,
 				86B6F16E1A7FD1F4000F5600 /* Images.xcassets in Resources */,
 			);
@@ -462,10 +462,10 @@
 			name = Auth.storyboard;
 			sourceTree = "<group>";
 		};
-		E43628461A82652800C51CF6 /* Main.storyboard */ = {
+		E43628541A82762000C51CF6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E43628471A82652800C51CF6 /* Base */,
+				E43628551A82762000C51CF6 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
