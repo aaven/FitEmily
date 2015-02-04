@@ -190,7 +190,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="clickPunchIn:" destination="VBK-VT-FjU" eventType="touchUpInside" id="jh2-Bt-Sjg"/>
                                     <segue destination="hkn-G9-vIL" kind="presentation" id="1dv-sj-g2q"/>
                                 </connections>
                             </button>
