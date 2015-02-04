@@ -14,7 +14,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-
 - (void)navigateWithAuthState;
 
 @end
