@@ -21,7 +21,9 @@
 }
 
 - (void)refreshData {
+    __weak FEDataManager *wself = self;
     [[AJAPIManager sharedManager] fetchWorkoutsInGroup:self.currentGroup success:^(NSArray *workouts) {
+        wself.workouts = workouts;
         [[NSNotificationCenter defaultCenter] postNotificationName:FEDidFetchDataNotification object:nil];
     } failure:^{
         NSLog(@"!! failed to refresh data");

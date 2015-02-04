@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		865ED7E71A8125D300039A5D /* FEPunchInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865ED7E61A8125D300039A5D /* FEPunchInViewController.m */; };
+		869728BE1A8257E20087D419 /* FETimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 869728BD1A8257E20087D419 /* FETimelineCell.m */; };
 		86B6F1631A7FD1F4000F5600 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1621A7FD1F4000F5600 /* main.m */; };
 		86B6F1661A7FD1F4000F5600 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1651A7FD1F4000F5600 /* AppDelegate.m */; };
 		86B6F1691A7FD1F4000F5600 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B6F1681A7FD1F4000F5600 /* ViewController.m */; };
@@ -51,6 +52,8 @@
 /* Begin PBXFileReference section */
 		865ED7E51A8125D300039A5D /* FEPunchInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEPunchInViewController.h; sourceTree = "<group>"; };
 		865ED7E61A8125D300039A5D /* FEPunchInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEPunchInViewController.m; sourceTree = "<group>"; };
+		869728BC1A8257E20087D419 /* FETimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FETimelineCell.h; sourceTree = "<group>"; };
+		869728BD1A8257E20087D419 /* FETimelineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FETimelineCell.m; sourceTree = "<group>"; };
 		86B6F15D1A7FD1F4000F5600 /* FitEmily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitEmily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B6F1611A7FD1F4000F5600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86B6F1621A7FD1F4000F5600 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -259,6 +262,8 @@
 			children = (
 				86B6F1BE1A811D01000F5600 /* FETimelineViewController.h */,
 				86B6F1BF1A811D01000F5600 /* FETimelineViewController.m */,
+				869728BC1A8257E20087D419 /* FETimelineCell.h */,
+				869728BD1A8257E20087D419 /* FETimelineCell.m */,
 				865ED7E51A8125D300039A5D /* FEPunchInViewController.h */,
 				865ED7E61A8125D300039A5D /* FEPunchInViewController.m */,
 			);
@@ -367,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86B6F1691A7FD1F4000F5600 /* ViewController.m in Sources */,
+				869728BE1A8257E20087D419 /* FETimelineCell.m in Sources */,
 				86B6F1A51A80F4FD000F5600 /* AJAPIManager.m in Sources */,
 				865ED7E71A8125D300039A5D /* FEPunchInViewController.m in Sources */,
 				86B6F1B31A80FF16000F5600 /* AJViewController.m in Sources */,

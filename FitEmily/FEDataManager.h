@@ -13,6 +13,7 @@
 
 @property (nonatomic, strong) NSArray *allGroups;
 @property (nonatomic, strong) PFObject *currentGroup;
+@property (nonatomic, strong) NSArray *workouts;
 
 + (FEDataManager *)sharedManager;
 - (void)refreshData;

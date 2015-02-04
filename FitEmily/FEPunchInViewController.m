@@ -30,6 +30,7 @@
                                   inGroup:[[FEDataManager sharedManager] currentGroup]
                                   success:^{
                                       NSLog(@"success punched in! %@ for %ld min", name, minute);
+                                      [[FEDataManager sharedManager] refreshData];
                                       [wself dismissViewControllerAnimated:YES completion:nil];
                                   } failure:^{
                                       NSLog(@"!! fail to punch in");

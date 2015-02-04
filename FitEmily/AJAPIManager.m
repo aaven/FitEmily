@@ -67,6 +67,8 @@
     }
     PFQuery *query = [PFQuery queryWithClassName:@"Workout"];
     [query whereKey:@"group" equalTo:group];
+    [query orderByDescending:@"createdAt"];
+    [query setLimit:10];
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
         if (error == nil) {
             success(objects);
@@ -84,8 +86,8 @@
     PFObject *workout = [PFObject objectWithClassName:@"Workout"];
     workout[@"name"] = name;
     workout[@"minute"] = @(minutes);
-    workout[@"userId"] = [PFUser currentUser].objectId;
-    workout[@"groupId"] = [[FEDataManager sharedManager] currentGroup].objectId;
+    workout[@"user"] = [PFUser currentUser];
+    workout[@"group"] = [[FEDataManager sharedManager] currentGroup];
     [workout saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (succeeded) {
             success();
