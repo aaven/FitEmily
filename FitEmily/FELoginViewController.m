@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "AJAPIManager.h"
 #import "FELoginViewController.h"
+#import "FYWeChatNetwork.h"
 
 @implementation FELoginViewController
 
@@ -21,6 +22,10 @@
                                               cancelButtonTitle:@"OK" otherButtonTitles:nil];
         [alert show];
     }];
+}
+
+- (IBAction)onClickLogin:(id)sender {
+    [[FYWeChatNetwork sharedManager] loginButtonClicked];
 }
 
 @end

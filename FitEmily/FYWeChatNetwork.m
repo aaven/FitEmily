@@ -29,13 +29,13 @@
 
 - (void)getWeiXinCodeFinishedWithResp:(BaseResp *)resp {
     if (resp.errCode == 0) {
-        _FYWeChatInfoVC.statusCodeLabel.text = @"用户同意";
+        //_FYWeChatInfoVC.statusCodeLabel.text = @"用户同意";
         SendAuthResp *aresp = (SendAuthResp *)resp;
         [self getAccessTokenWithCode:aresp.code];
     } else if (resp.errCode == -4) {
-        _FYWeChatInfoVC.statusCodeLabel.text = @"用户拒绝";
+        //_FYWeChatInfoVC.statusCodeLabel.text = @"用户拒绝";
     }else if (resp.errCode == -2) {
-        _FYWeChatInfoVC.statusCodeLabel.text = @"用户取消";
+        //_FYWeChatInfoVC.statusCodeLabel.text = @"用户取消";
     }
 }
 

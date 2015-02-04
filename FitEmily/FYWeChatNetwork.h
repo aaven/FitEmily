@@ -7,12 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FYWeChatInfoViewController.h"
 #import "WXApi.h"
 
 @interface FYWeChatNetwork : NSObject
 
-@property (weak, nonatomic) FYWeChatInfoViewController *FYWeChatInfoVC;
+// @property (weak, nonatomic) FYWeChatInfoViewController *FYWeChatInfoVC;
 
 + (FYWeChatNetwork *)sharedManager;
 - (void)loginButtonClicked;

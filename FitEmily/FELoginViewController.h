@@ -11,6 +11,7 @@
 @interface FELoginViewController : AJViewController
 @property (strong, nonatomic) IBOutlet UITextField *usernameField;
 @property (strong, nonatomic) IBOutlet UITextField *passwordField;
+@property (weak, nonatomic) IBOutlet UIButton *weChatLoginButton;
 
 - (IBAction)clickLogin:(id)sender;
 
